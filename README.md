@@ -1,0 +1,1 @@
+I  built this little Linux command-line tool for sniffing traffic. It uses packet.h, which contains some network data structures, and vector_pack. Feel free to download it to learn about networking, or just use it to check where your computer is sending its data!
