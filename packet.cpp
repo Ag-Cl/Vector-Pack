@@ -77,7 +77,7 @@ int main(){
                     if((int)tcp->flags & 0x8){
                         printf(" PSH");
                     }
-                    if((int)tcp->flags == 0x20){
+                    if((int)tcp->flags & 0x20){
                         printf(" URG");
                     }
                     printf("\n");
